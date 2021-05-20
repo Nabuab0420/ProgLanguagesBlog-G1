@@ -21,6 +21,8 @@ Route::get('/post_1', [App\Http\Controllers\G1Controller::class, 'post1']);
 Route::get('/post_2', [App\Http\Controllers\G1Controller::class, 'post2']);
 Route::get('/post_3', [App\Http\Controllers\G1Controller::class, 'post3']);
 Route::get('/about', [App\Http\Controllers\G1Controller::class, 'about']);
+Route::get('/log', [App\Http\Controllers\G1Controller::class, 'login']);
+Route::get('/register', [App\Http\Controllers\G1Controller::class, 'register']);
 /*Route::get('/post1', function () {
     return view('post1');
 });

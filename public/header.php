@@ -5,6 +5,7 @@
             <div
                 class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav ml-auto"></ul>
+
             </div>
         </div>
         <div >
@@ -34,5 +35,9 @@
 
         //}
         ?>
+
+        </div>
+        </div>
+
     </nav>
 </html>

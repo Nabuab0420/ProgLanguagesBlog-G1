@@ -20,6 +20,12 @@ class G1Controller extends Controller
     public function about(){
         return view('about');
     }
+    public function login(){
+        return view('login');
+    }
+    public function register(){
+        return view('registration');
+    }
 }
 
 ?>

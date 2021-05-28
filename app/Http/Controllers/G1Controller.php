@@ -1,3 +1,4 @@
+
 <?php
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
@@ -27,5 +28,6 @@ class G1Controller extends Controller
         return view('registration');
     }
 }
+
 
 ?>
